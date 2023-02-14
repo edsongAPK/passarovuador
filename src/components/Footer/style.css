@@ -1,6 +1,6 @@
 footer {
     width: 500px;
-    background-color: #3C3550;
+    background-color: #0bda2d;
     padding: 10px 0;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@ footer {
 }
 
 footer strong {
-    color: #FFF;
+    color: #2c0beb;
     font-size: x-large;
 }
 
@@ -17,7 +17,7 @@ footer hr {
     width: 90%;
     border-style: solid;
     border-width: 1px;
-    border-color: #FFF6;
+    border-color: rgba(126, 6, 6, 0.4);
 }
 
 footer div {
@@ -27,7 +27,7 @@ footer div {
 }
 
 footer div p {
-    color: #FFF8;
+    color: rgba(192, 8, 8, 0.533);
     font-size: large;
     margin: 6px;
 }

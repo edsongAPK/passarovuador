@@ -7,8 +7,16 @@ import Ground from './components/Ground';
 import city from './assets/city.jpg'
 import ground from './assets/ground.png'
 import Bird from './components/Bird/Bird';
+import { useState, useEffect } from 'react';
 
 function App() {
+
+	const [birdPosition, setbirdPosition] = useState(0)
+	useEffect(() => {
+		let timeID = setInterval(() => {
+			setbirdPosition((pos) => pos + 5)
+		}) 
+	}, 24)
 
 
 	return (
@@ -30,7 +38,7 @@ function App() {
 
 					<Bird
 						size={Consts.BIRD_SIZE}
-						top={Consts.birdPosition}
+						top={birdPosition}
 						left={Consts.BIRD_LEFT}
 					/>
 

@@ -1,6 +1,6 @@
 .Bird{
     position: absolute;
     display: flex;
-    background-color: orange;
+    background-color: rgba(206, 58, 13, 0.945);
     border-radius: 50%;
 }

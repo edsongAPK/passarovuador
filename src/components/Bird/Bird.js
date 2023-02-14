@@ -3,11 +3,11 @@ import React from "react";
 import bird from '../../assets/bird.png'
 import './style.css'
 
-function Bird({size = 30, top, left = 0}){
+function Bird({size = 125, top, left = 0}){
 
     return (
         <div
-            className='Bird'
+            className='CAnarim'
             style={{
                 height: size,
                 width: size,
@@ -17,6 +17,7 @@ function Bird({size = 30, top, left = 0}){
         >
             Bird
             {/* <img src={bird} alt="Bird"/> */}
+
         </div>
     )
 }
